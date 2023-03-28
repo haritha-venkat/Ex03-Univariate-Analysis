@@ -55,3 +55,4 @@ snb.histplot(x="Ship Mode",data=df)
 snb.countplot(x="Category",data=df)
 ```
 # OUTPUT
+# EDA - SuperStore.csv

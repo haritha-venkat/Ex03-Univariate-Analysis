@@ -56,3 +56,23 @@ snb.countplot(x="Category",data=df)
 ```
 # OUTPUT
 # EDA - SuperStore.csv
+![image](https://user-images.githubusercontent.com/121285701/228285604-f0cd9917-a3a9-4397-83f3-eaf7dbc0b313.png)
+# Displaying information about Dataset
+![image](https://user-images.githubusercontent.com/121285701/228285919-7f731f6a-fe15-4d25-a2d3-56ecd49f51a7.png)
+#![image](https://user-images.githubusercontent.com/121285701/228286172-7ab4699d-73e1-426e-a831-6b95cbd029d9.png)
+# Finding null values and cleaning it
+![image](https://user-images.githubusercontent.com/121285701/228286351-a95661ea-5909-465e-a0a5-1cbd7c936af6.png)
+# Value counts of "Postal Code"
+![image](https://user-images.githubusercontent.com/121285701/228286482-da21637e-95e8-4a48-bb4f-b4f7a72ac9d5.png)
+# Distribution of Data
+![image](https://user-images.githubusercontent.com/121285701/228286790-6fa5f493-8fe1-4f20-9ce2-259e079f65e4.png)
+# Univariate Analysis
+![image](https://user-images.githubusercontent.com/121285701/228286944-3cce392b-833e-47d9-b78d-6d80d928a3ef.png)
+![image](https://user-images.githubusercontent.com/121285701/228287014-87d8ac99-d83c-43ce-8e93-9c58d5204612.png)
+![image](https://user-images.githubusercontent.com/121285701/228287055-22d428af-949b-4a94-84ba-5f7a48a83285.png)
+![image](https://user-images.githubusercontent.com/121285701/228287107-742228ac-bbfb-4c24-a37f-c097b0f80383.png)
+
+![image](https://user-images.githubusercontent.com/121285701/228287143-331a3e1f-30f1-4f9c-9c8c-840fcbf319ef.png)
+# RESULT:
+
+Thus the program to perform EDA on the given data set is successfully executed.

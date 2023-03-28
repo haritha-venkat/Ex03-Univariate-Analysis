@@ -15,19 +15,43 @@ Get the information about the data.
 ### Step3
 
 Remove the null values from the data.
-Step4
+### Step4
 
 Mention the datatypes from the data.
-Step5
+### Step5
 
 Count the values from the data.
-Step6
+### Step6
 
 Do plots like boxplots,countplot,distribution plot,histogram plot.
-Program
+# Program
+```python
+Developed by : harithashree.V
+Registration Number : 212222230046
 
-Developed by : DHARSHINI DS
-Registration Number : 212221230022
-
-ic
-OUTPUT
+import pandas as pd
+import numpy as np
+import seaborn as snb
+df = pd.read_csv('/content/SuperStore.csv')
+df.head(10)
+df.info()
+df.describe()
+df.dtypes
+df.isnull().sum()
+df['Postal Code'] = df["Postal Code"].fillna(df['Postal Code'].mode()[0])
+df.isnull().sum()
+df['Postal Code'].value_counts()
+snb.boxplot(x="Sales",data=df)
+snb.countplot(x="Sales",data=df)
+snb.distplot(df["Sales"])
+snb.histplot(x="Sales",data=df)
+df.skew()
+df.kurtosis()
+snb.histplot(x="Postal Code",data=df)
+snb.displot(x="Postal Code",data=df)
+snb.boxplot(x="Postal Code",data=df)
+snb.boxplot(x="Row ID",data=df)
+snb.histplot(x="Ship Mode",data=df)
+snb.countplot(x="Category",data=df)
+```
+# OUTPUT
